@@ -3,7 +3,7 @@
 
 Name:           python-pyzabbix
 Version:        1.1.5
-Release:        1%{?dist}
+Release:        CROC2%{?dist}
 Summary:        Py-Zabbix is a Python module for working with the Zabbix API
 
 License:        GPLv2
@@ -12,9 +12,9 @@ Source0:        python-%{srcname}-%{commit}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  python%{python3_pkgversion}-requests
 BuildRequires:  python%{python3_pkgversion}-setuptools
-BuildRequires:  python%{python3_pkgversion}-mock
+BuildRequires:  python36-requests
+BuildRequires:  python36-mock
 
 
 %description
@@ -54,5 +54,8 @@ License:        GPLv2
 
 
 %changelog
+* Thu Sep 17 2020 Konstantin Zakharov  <kszakharov@gmail.com> - 1.1.5-2
+- Bump version
+
 * Mon Dec 16 2019 Nikita Kretov  <kretov995@gmail.com> - 1.1.5-1
 - First build
