@@ -3,27 +3,6 @@
 Zabbix module for Python
 ========================
 
-Build dependencies
-------------------
-
-- podman
-- buildah
-
-Build
------
-
-You can build rpm packages:
-
-::
-
-    sudo su - 
-    git clone https://github.com/Ubun1/py-zabbix.git
-    cd py-zabbix
-    mkdir RPMS
-    make create-build-env
-    make rpm
-
-
 Install
 -------
 
