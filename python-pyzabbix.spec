@@ -3,7 +3,7 @@
 
 Name:           python-pyzabbix
 Version:        1.1.5
-Release:        CROC2%{?dist}
+Release:        ROCKIT3%{?dist}
 Summary:        Py-Zabbix is a Python module for working with the Zabbix API
 
 License:        GPLv2
